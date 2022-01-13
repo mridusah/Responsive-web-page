@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+ 
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*CSS variables */
+:root{
+    --navbar-height: 19px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: right;
+    text-indent: 2px;
+    height: 86px;
+    background-color: rgb(59, 59, 59,.2);
+    z-index: 5;
+    width: 100%;
+}
+
+/* navbar logo and image */
+
+.logo-text
+{
+    margin-top: 8px;
+    /* margin-right: -31px; */
+    margin-left: -6px;
+    padding: 0;
+} 
+
+#text{
+    font-family: 'Dancing Script', cursive;  
+    color: white; 
+    text-decoration: none; 
+    font-size: larger;
+    padding: 0;
+    margin-left: 0;
+}
+
+#logo img{
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 7px;
+}
+
+
+#navbar ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li{
+    /* color: white */
+    list-style: none;
+    font-size: 15px;
+}
+
+#navbar ul li a{
+    color: white;
+    font-weight: 800;
+    display: block;
+    padding: 3px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+#navbar ul li a:hover{
+    color: orangered;
+}
+
+.carousel-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+li {
+    padding: 0px;
+    margin-right: 1px;
+    font-size: 11px;
+    text-indent: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+li:active{
+    color: orange;
+}
+
+li :hover{
+    color: orange;
+}
+
+a:active{
+    color: orange;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.active-li {
+    color: orange;
+}
+
+nav{
+    /* opacity: 0.8; */
+    position: relative;
+}
+
